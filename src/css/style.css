@@ -1,0 +1,59 @@
+body {
+    background-color: skyblue;
+}
+
+.title {
+    text-align: center;
+    color: purple;
+    border-style: dotted;
+}
+
+.title-1 {
+    color: midnightblue;
+    text-align: center;
+    text-decoration: line-through;
+    border-style: dotted;
+}
+.chapter-1 {
+    color: midnightblue;
+    text-decoration: line-through;
+}
+
+.title-2 {
+    color: seagreen;
+    text-align: center;
+    text-decoration: underline;
+    border-style: dotted;
+}
+.chapter-2 {
+    color: seagreen;
+    text-decoration: underline;
+} 
+
+.title-3 {
+    color: red;
+    text-align: center;
+    border-style: dotted;
+} 
+.chapter-3 {
+    color: red;
+}
+
+.title-4 {
+    color: yellow;
+    text-align: center;
+    border-style: dotted;
+}
+.chapter-4 {
+    color: yellow;
+}
+
+.title-5 {
+    color: purple;
+    text-align: center;
+    border-style: dotted;
+}
+.chapter-5 {
+    color: purple;
+    font-weight: bold;
+}
