@@ -1,0 +1,59 @@
+body {
+    background-color: skyblue;
+}
+
+.title {
+    text-align: center;
+    color: purple;
+    border-style: dotted;
+}
+
+.chapter_minas-tirith {
+    color: midnightblue;
+    text-align: center;
+    text-decoration: line-through;
+    border-style: dotted;
+}
+.paragraphs_minas-tirith {
+    color: midnightblue;
+    text-decoration: line-through;
+}
+
+.chapter_choice_of_aragorn {
+    color: seagreen;
+    text-align: center;
+    text-decoration: underline;
+    border-style: dotted;
+}
+.paragraphs_choice_of_aragorn {
+    color: seagreen;
+    text-decoration: underline;
+} 
+
+.chapter_Rohan_gathers_troops {
+    color: red;
+    text-align: center;
+    border-style: dotted;
+} 
+.paragraphs_Rohan_gathers_troops {
+    color: red;
+}
+
+.chapter_siege_of_the_city {
+    color: yellow;
+    text-align: center;
+    border-style: dotted;
+}
+.paragraphs_siege_of_the_city {
+    color: yellow;
+}
+
+.chapter_campaign_of_theoden {
+    color: purple;
+    text-align: center;
+    border-style: dotted;
+}
+.paragraphs_campaign_of_theoden {
+    color: purple;
+    font-weight: bold;
+}
