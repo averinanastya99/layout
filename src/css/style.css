@@ -1,10 +1,20 @@
-.box {
+*, html {
+    box-sizing: border-box;
+}
+.product-card {
+    vertical-align: middle;
     background-color: red;
-    height: auto;
-    width: 100%;
+    padding: 20px;
+    border: solid 5px black;
 }
 
 .product-description {
-    border: solid 5px black;
-    vertical-align: middle;
+    display: inline-block;
+    width: 45%;
+
+}
+
+.headphones {
+    display: inline-block;
+    width: 45%;
 }
