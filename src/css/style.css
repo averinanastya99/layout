@@ -2,19 +2,27 @@
     box-sizing: border-box;
 }
 .product-card {
-    vertical-align: middle;
-    background-color: red;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     padding: 20px;
     border: solid 5px black;
 }
 
 .product-description {
-    display: inline-block;
+    background-color: white;
+    vertical-align: middle;
     width: 45%;
 
 }
 
 .headphones {
-    display: inline-block;
+    background-color: white;
+    vertical-align: middle;
     width: 45%;
-}
+    }
