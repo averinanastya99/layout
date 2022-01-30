@@ -3,26 +3,25 @@
 }
 .product-card {
     position: absolute;
-    display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
+    padding: 10px;
     border: solid 5px black;
 }
 
 .product-description {
-    background-color: white;
+    float: right;
     vertical-align: middle;
-    width: 45%;
+    width: 40%;
 
 }
 
 .headphones {
-    background-color: white;
+    float: left;
     vertical-align: middle;
-    width: 45%;
+    width: 40%;
     }
