@@ -1,27 +1,73 @@
 *, html {
     box-sizing: border-box;
-}
-.product-card {
+    margin: 0;
+    }
+    .product-card {
     position: absolute;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    left: 50%;
     top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px;
-    border: solid 5px black;
-}
-
-.product-description {
-    float: right;
+    border: 1px solid #d7d7d7;
+    background-color: #fff;
+    width: 100%;
+    max-width: 1000px;
+    padding: 48px 64px;
+    
+    }
+    
+    .product-description {
+    display: inline-block;
     vertical-align: middle;
-    width: 40%;
-
-}
-
-.headphones {
-    float: left;
+    /* width: 393px; */
+    width: 45%;
+    }
+    
+    .headphones {
+    display: inline-block;
     vertical-align: middle;
-    width: 40%;
+    width: 43%;
+    margin-right: 10%;
+    }
+    
+    .headphones img {
+    width: 100%;
+    }
+    
+    .main-title {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px;
+    }
+    
+    .main-text {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 55px;
+    }
+    
+    .price {
+    display: block;
+    margin-top: 55px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 23px;
+    }
+    
+    .amount {
+    display: block;
+    margin-top: 23px;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 56px;
+    }
+    
+    .button {
+    width: 252px;
+    height: 50px;
+    font-size: 19px;
+    background-color: #ec744a;
+    color: #fff;
+    margin-top: 0;
+    border: none;
     }
