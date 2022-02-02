@@ -1,0 +1,23 @@
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    }
+
+.layout-tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.information-block {
+    align-self: flex-start;
+    text-align: center;
+    width: 100%;
+}
+
+.tools {
+    flex-basis: 20px;
+    align-self: center;
+}
