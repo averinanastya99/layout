@@ -10,14 +10,24 @@
     margin: auto;
     flex-wrap: wrap;
 }
-
 .information-block {
     align-self: flex-start;
     text-align: center;
     width: 100%;
 }
-
 .tools {
     flex-basis: 20px;
-    align-self: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+.button {
+    width: 100%;
+    color: cornflowerblue;
+}
+.price {
+    margin-top: 0;
+    margin-bottom: 23px;
+    margin-top: 23px;
+    font-weight: bold;
 }
