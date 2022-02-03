@@ -16,10 +16,14 @@
     width: 100%;
 }
 .tools {
-    flex-basis: 20px;
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid black;
     padding: 10px;
     font-size: 15px;
+    width: 23%;
 }
 .button {
     width: 100%;
@@ -30,4 +34,11 @@
     margin-bottom: 23px;
     margin-top: 23px;
     font-weight: bold;
+}
+.block-tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    border: 20px solid yellow;
 }
