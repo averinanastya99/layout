@@ -3,6 +3,7 @@
 }
 .body {
     font-family: sans-serif;
+    color: #32325f;
 }
 .container {
     max-width: 1140px;
@@ -13,6 +14,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 159px;
 }
 .brand {
     font-size: 20px;
@@ -27,8 +29,9 @@
 .hero {
     padding-top: 70px;
     padding-bottom: 190px;
+    background-color: #f4f5f7;
 }
-.maim {
+.main {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,4 +77,33 @@
     border-radius: 6px;
     padding: 20px 30px;
     color: white;
+}
+.btn-success {
+    background-color:#2dce89;
+    margin-right: 20px;
+}
+.btn-primary {
+    background-color:#5e72e4;
+
+}
+
+/* Оформление секций */
+.section {
+/* Внутренний отступ в секции сверху */
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.section-subtitle {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.section-title {
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+    color: #32325f;
+    font-weight: bold;
+    font-family: "Helvetica Neue";
 }
